@@ -266,35 +266,5 @@ public class Mapas {
         }
     }
 
-    public HashMap<String, ArrayList> getProductos() {
-        return Productos;
-    }
 
-    public void setProductos(HashMap<String, ArrayList> Productos) {
-        this.Productos = Productos;
-    }
-
-    public LinkedHashMap <String, ArrayList> getProductosLinked() {
-        return ProductosLinked;
-    }
-
-    public void setProductosLinked(LinkedHashMap <String, ArrayList> ProductosLinked) {
-        this.ProductosLinked = ProductosLinked;
-    }
-
-    public TreeMap <String, ArrayList> getProductosTree() {
-        return ProductosTree;
-    }
-
-    public void setProductosTree(TreeMap <String, ArrayList> ProductosTree) {
-        this.ProductosTree = ProductosTree;
-    }
-
-    public ArrayList <String> getPro() {
-        return Pro;
-    }
-
-    public void setPro(ArrayList <String> Pro) {
-        this.Pro = Pro;
-    }
 }
