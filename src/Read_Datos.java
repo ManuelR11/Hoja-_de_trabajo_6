@@ -1,9 +1,8 @@
-/**
- * 
- */
 
 /**
- * @author rodas
+ @author Manuel Rodas
+ * Algoritmos y estructura de datos
+ * Hoja de trabajo 6 
  *
  */
 
@@ -15,12 +14,17 @@ import java.util.ArrayList;
 
 
 
-public class Read_Pro {
+public class Read_Datos {
 
-	public Read_Pro(){
+	public Read_Datos(){
 		
 	}
 
+	/**
+	 * Se crea un Arraylist, donde se guarden los datos del archivo 
+	 * @return list
+	 */
+	
 	public ArrayList leer(){
 	   ArrayList<String> list = new ArrayList<>();
 	   try {
